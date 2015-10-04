@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="pushSliderStyle.css">
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<!-- <link rel="stylesheet" href="default.css"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link href="style.less" rel="stylesheet/less"> -->
+</head>
+<body ng-controller="controller" class="cbp-spmenu-push">
+<h1>This is my s3 page</h1>
+<br>
+<div>
+	<input type="file" images="images" accept="image/pdf*" ng-model="s3url" fileread />
+	{{s3url}}
+</div>
+<br/>
+<br/>
+<input type="email" placeholder="add email here" />
+<br>
+<br>
+<textarea rows="4" cols="50"></textarea>
+<script>
+  $(function(){
+    $(".typed").typed({
+      strings: ["affordable", "Immersive", "highly-reviewed", "transformative", "innovative", "passionate", "accessible", "life-changing"],
+      typeSpeed: 50,
+      backDelay: 3000,
+      loop: true,
+      showCursor: true,
+      cursorChar: "|",
+    });
+  });
+</script>
+<h1 align="center">Most <a class="typed">Affordable</a> Five Star </br>Code School in the Country</a></h1>
+
+<nav class="nav-side ">
+	Side Content 
+	<input type="text" placeholder="Add New Cohort">
+	<a href="#" class="nav-toggle"></a>
+</nav>
+
+
+
+
+<section class="buttonset">
+<button id="showLeftPush">Show/Hide Left Push Menu</button>
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+	<h3>Menu</h3>
+	<br/>
+	<input type='text' placeholder="Add New Corhort">
+	<hr>
+	<a href="#">Dulse daikon</a>
+	<a href="#">Zucchini garlic</a>
+	<a href="#">Catsear azuki bean</a>
+	<a href="#">Dandelion bunya</a>
+	<a href="#">Rutabaga</a>
+</nav>
+</section>
+
+
+
+
+<br/>
+<div class="wrapper">
+	Lots of content here, I guess.
+</div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+	<script src="./app.js"></script>
+	<script src="controller.js"></script>
+	<script src="service.js"></script>
+	<script src="directive.js"></script>
+	<script src="pushSlider.js"></script>
+	<script src="typed.js"></script>
+	
+
+
+
+
+
+
+
+
+
+</body>
+</html>
